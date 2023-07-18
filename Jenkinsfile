@@ -1,7 +1,5 @@
 pipeline {
-    agent { 
-        echo "agent"
-      }
+   agent any
     triggers {
         pollSCM '* * * * *'
     }
